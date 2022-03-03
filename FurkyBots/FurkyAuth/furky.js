@@ -11,7 +11,7 @@ const backup = require("./models/rolBackup");
 
 mongoose.set('useFindAndModify', false);
 
-mongoose.connect("mongodb+srv://anan:ananke31@cluster0.67dq6.mongodb.net/anan?retryWrites=true&w=majority", { 
+mongoose.connect("MongoLinkin", { 
   useNewUrlParser: true, 
   useUnifiedTopology: true 
 });
