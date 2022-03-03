@@ -1,0 +1,1997 @@
+{
+    "name": "Furky.",
+    "region": "deprecated",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ALL",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Bot Hakkında",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "panel-sistemi",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Hakkında",
+                        "topic": "Buradan kullanıcı panel sistemini test edebilirsiniz.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 66560,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Merhabalar **Furky.**,\nAşağıdaki butonlardan ilgili tuşlara basarak istediğiniz şeyler hakkında bilgi sahibi olabilirsiniz!\n\n**1:** Sunucuya katılım tarihinizi öğrenin.\n**2:** Geçmiş isimlerinizi öğrenin.\n**3:** Sunucuya katılım sıranızı öğrenin.\n\n**4:** Sicilinizi görüntüleyin.\n**5:** Sahip olduğunuz rolleri görüntüleyin.\n**6:** Rol logunuzu görüntüleyin.\n\n:white_check_mark:: Eğer eski bir kaydınız varsa otomatik olarak tekrar kayıt olun.\n:bell:: Sunucu istatistiklerini görüntüleyin.\n:x:: Kayıtsıza gidin ve tekrar teyit verin.",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "Bot's",
+                        "bitrate": 96000,
+                        "userLimit": 1,
+                        "parent": "Bot Hakkında",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 1048576
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "menü-sistemi",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Hakkında",
+                        "topic": "Buradan menü / rol alma sistemini test edebilirsiniz.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 66560,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "komutlar",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Hakkında",
+                        "topic": "Buradan botlarımın komutlarına bakabilirsiniz.",
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": 66560,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Selam **Furky.** üyeleri, aşağıdaki butonlara tıklayarak bot komutları hakkında bilgi alabilirsiniz!\n\n**Admin:** Yönetici Komutları\n**Furky:** Geliştirici Komutları\n**Penal:** Ceza Komutları\n**Reg:** Kayıt Komutları\n**Staff:** Yetkili Komutları\n**User:** Kullanıcı Komutları\n\nKomutları normal mesaj halinde almak isterseniz **.yardım** kullanabilirsiniz.",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "notlar",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Hakkında",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 66560,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "General",
+                "permissions": [
+                    {
+                        "roleName": "Member",
+                        "allow": 36769280,
+                        "deny": 0
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 66560,
+                        "deny": 1050624
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "Voice l.",
+                        "bitrate": 96000,
+                        "userLimit": 0,
+                        "parent": "General",
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": 36769280,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 1050624
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "General",
+                        "topic": "Sohbet edebilirsiniz.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 1050624
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 36802112,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "@​Kutsal Menemen @​Furky realistic 31 tayf salsana",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "935491647033204786 - yeni rol - 14:11:22 25 Ocak 2022\n935491645154136105 - yeni rol - 14:13:16 25 Ocak 2022\n935491644868927519 - yeni rol - 14:13:36 25 Ocak 2022\n935491644294316062 - yeni rol - 14:14:41 25 Ocak 2022\n935491636438401024 - yeni rol - 14:14:42 25 Ocak 2022\n935492914723827732 - yeni rol - 14:14:57 25 Ocak 2022\n935492914199535616 - yeni rol - 14:15:32 25 Ocak 2022\n935492913209704449 - yeni rol - 14:20:13 25 Ocak 2022\n935492912907714602 - yeni rol - 14:20:57 25 Ocak 2022\n935492912853168139 - yeni rol - 14:21:19 25 Ocak 2022",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?silinenroller",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenliekle @​Furky",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Lütfen güvenli listeye eklenecek kullanıcıyı etiketle!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenliekle",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli ekle",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Lütfen **ekle**, **kaldır** veya **bak** olacak şekilde bir **argüman belirt**!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli elşe ekle",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli ekle",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli ekle",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Lütfen **ekle**, **kaldır** veya **bak** olacak şekilde bir **argüman belirt**!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli ekle",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli ekle",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli ekle",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli ekle",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli ekle",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Lütfen **ekle**, **kaldır** veya **bak** olacak şekilde bir **argüman belirt**!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "deneme",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?rset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?REsert",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?silinenroller",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?güvenli",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?whitelist",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor..!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "Selamlar <@877466907673002025>!\n\n**Furky.** marketinde şu ürünler mevcut:\n\n**1_ Spotify - 1500x FurkyCoin** :coin:\n**2_ Netflix - 3000x FurkyCoin** :coin:\n\n\nToplam **38283 FurkyCoin** :coin:'e sahipsin! Daha fazla coin için ses kanallarında takılabilir veya metin kanallarında sohbete edebilirsin! Rol marketi için **.rolmarket** yazabilirsin!",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 8135645,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": {
+                                            "text": "Furky 💜 Menemen"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".market",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "Voice ll.",
+                        "bitrate": 96000,
+                        "userLimit": 0,
+                        "parent": "General",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 1050624
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 36769280,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "commands",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "General",
+                        "topic": "Komutları kullanabilirsiniz.",
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": 36769280,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 1050624
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".say",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".say",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".say",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".say",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".say",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".say",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".afk",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".afk",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".afk",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".afk",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".afk",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".afk",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "****",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".tag",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".tag",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "****",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".tag",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "eqw",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "weqw",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "eq",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "eqw",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "qweqw",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "qweqwe",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "qweqweqwe",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "<@877466907673002025>, başarıyla **Sebep belirtilmemiş!** sebebinden dolayı AFK moduna giriş yaptın ancak adını [AFK] olarak düzeltemedim!",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 12409543,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": {
+                                            "text": "Furky 💜 Menemen"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".afk",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "<@877466907673002025>, başarıyla AFK modundan çıkış yaptın ancak adını düzeltemedim!",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 7952433,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": {
+                                            "text": "Furky 💜 Menemen"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "abdd 1234",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": null,
+                                        "type": "rich",
+                                        "description": "<@877466907673002025>, başarıyla **Sebep belirtilmemiş!** sebebinden dolayı AFK moduna giriş yaptın ancak adını [AFK] olarak düzeltemedim!",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 11916654,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": {
+                                            "text": "Furky 💜 Menemen"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".afk",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".afk",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".afl",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Bot yeniden başlatılıyor...",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "<a:furky_Star:912732051592073318>",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": ".yardım",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "Developer's",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Member",
+                        "allow": 0,
+                        "deny": 1024
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "notebook",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Developer's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "- Kurulum komutu 738 satır. (11.12.2021 / 11:24)",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "notebook-2",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Developer's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "\\qm!eval client.channels.cache.get(\"907006911700946974\").send(`<@!746747270413811788> iyi oyunlar cigerim`)",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "dev-notes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Developer's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "some-bugs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Developer's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 66560,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "**- Fixlendi: Komut spam yapınca engel**",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "**- Fixlendi: AFK komutunun tarihi / saati yanlış göstermesi.**",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "**- Eklendi: `.rol al/ver` komutu denetim kaydına yazdırma.**",
+                                "embeds": [],
+                                "files": [
+                                    {
+                                        "name": "unknown.png",
+                                        "attachment": "https://cdn.discordapp.com/attachments/922503457708048474/922503565614911538/unknown.png"
+                                    }
+                                ],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "Bot Log's",
+                "permissions": [
+                    {
+                        "roleName": "Member",
+                        "allow": 0,
+                        "deny": 1049600
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1049600
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "guard",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Log's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard lll",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043787499262052/e444ae944dc7e4438c1e63adf435d671.webp",
+                                "content": "Guardlar yeniden başlatılıyor!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Deleted User",
+                                "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+                                "content": "?reset",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "auth",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Log's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "sync",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Log's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1049600
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "moderation",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Log's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1049600
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "quany",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Log's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1049600
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "Dashboard",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "shard",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Dashboard",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "cluster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Dashboard",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "name": "Realistic 31 Tayf",
+            "color": "#ffe500",
+            "hoist": true,
+            "permissions": 104320585,
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "</>",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "Quany",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "Bot's",
+            "color": "#3be0fd",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "Quany",
+            "color": "#4472ff",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "Member",
+            "color": "#5aff9d",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "erkek 3",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "erkek 2",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "erkek 1",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "yeni rol",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "yeni rol",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "yeni rol",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "yeni rol",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1646332672203,
+    "guildID": "877503484918923264",
+    "id": "949012753350262784"
+}

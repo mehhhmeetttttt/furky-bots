@@ -1,0 +1,690 @@
+{
+    "name": "Furky.",
+    "region": "russia",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ALL",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Bot Hakkında",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "panel-sistemi",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Hakkında",
+                        "topic": "Buradan kullanıcı panel sistemini test edebilirsiniz.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 66560,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Merhabalar **Furky.**,\nAşağıdaki butonlardan ilgili tuşlara basarak istediğiniz şeyler hakkında bilgi sahibi olabilirsiniz!\n\n**1:** Sunucuya katılım tarihinizi öğrenin.\n**2:** Geçmiş isimlerinizi öğrenin.\n**3:** Sunucuya katılım sıranızı öğrenin.\n\n**4:** Sicilinizi görüntüleyin.\n**5:** Sahip olduğunuz rolleri görüntüleyin.\n**6:** Rol logunuzu görüntüleyin.\n\n:white_check_mark:: Eğer eski bir kaydınız varsa otomatik olarak tekrar kayıt olun.\n:bell:: Sunucu istatistiklerini görüntüleyin.\n:x:: Kayıtsıza gidin ve tekrar teyit verin.",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "Bot's",
+                        "bitrate": 96000,
+                        "userLimit": 1,
+                        "parent": "Bot Hakkında",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 1048576
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "menü-sistemi",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Hakkında",
+                        "topic": "Buradan menü / rol alma sistemini test edebilirsiniz.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 66560,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "komutlar",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Hakkında",
+                        "topic": "Buradan botlarımın komutlarına bakabilirsiniz.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 66560,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "✩ Furky Test",
+                                "avatar": "https://cdn.discordapp.com/avatars/879046657667375105/cce51a874fbf38c6ecc243f0665b9bcb.webp",
+                                "content": "Selam **Furky.** üyeleri, aşağıdaki butonlara tıklayarak bot komutları hakkında bilgi alabilirsiniz!\n\n**Admin:** Yönetici Komutları\n**Furky:** Geliştirici Komutları\n**Penal:** Ceza Komutları\n**Reg:** Kayıt Komutları\n**Staff:** Yetkili Komutları\n**User:** Kullanıcı Komutları\n\nKomutları normal mesaj halinde almak isterseniz **.yardım** kullanabilirsiniz.",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "notlar",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Hakkında",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 66560,
+                                "deny": 2048
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "General",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 66560,
+                        "deny": 1050624
+                    },
+                    {
+                        "roleName": "Member",
+                        "allow": 36769280,
+                        "deny": 0
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "Voice l.",
+                        "bitrate": 96000,
+                        "userLimit": 0,
+                        "parent": "General",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 1050624
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 36769280,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "General",
+                        "topic": "Sohbet edebilirsiniz.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 1050624
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 36802112,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "Voice ll.",
+                        "bitrate": 96000,
+                        "userLimit": 0,
+                        "parent": "General",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 1050624
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 36769280,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "commands",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "General",
+                        "topic": "Komutları kullanabilirsiniz.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 1050624
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 36769280,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "Developer's",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Member",
+                        "allow": 0,
+                        "deny": 1024
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "notebook",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Developer's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "notebook-2",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Developer's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "dev-notes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Developer's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "Bot Log's",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1049600
+                    },
+                    {
+                        "roleName": "Member",
+                        "allow": 0,
+                        "deny": 1049600
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "guard",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Log's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1049600
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "✩ Furky Guard l",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043407478530088/d4fe022342983d57e489056e02e665d6.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Kanal silindi!",
+                                        "type": "rich",
+                                        "description": "Sunucudaki **notebook** `(902943723036508201)` kanalı silindi!",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 16711680,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": {
+                                            "text": "Furky 💜 Menemen"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard l",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043407478530088/d4fe022342983d57e489056e02e665d6.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Kanal silindi!",
+                                        "type": "rich",
+                                        "description": "Sunucudaki **commands** `(902943985935458335)` kanalı silindi!",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 16711680,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": {
+                                            "text": "Furky 💜 Menemen"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard l",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043407478530088/d4fe022342983d57e489056e02e665d6.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Kanal silindi!",
+                                        "type": "rich",
+                                        "description": "Sunucudaki **chat** `(902943923511652422)` kanalı silindi!",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 16711680,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": {
+                                            "text": "Furky 💜 Menemen"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard l",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043407478530088/d4fe022342983d57e489056e02e665d6.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Rol silindi!",
+                                        "type": "rich",
+                                        "description": "Sunucudaki **new role** `(903642370363494451)` rolü silindi!",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 16711680,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": {
+                                            "text": "Furky 💜 Menemen"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard l",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043407478530088/d4fe022342983d57e489056e02e665d6.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Kanal silindi!",
+                                        "type": "rich",
+                                        "description": "Sunucudaki **annen-31** `(903642423635353621)` kanalı silindi!",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 16711680,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": {
+                                            "text": "Furky 💜 Menemen"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard l",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043407478530088/d4fe022342983d57e489056e02e665d6.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Rol silindi!",
+                                        "type": "rich",
+                                        "description": "Sunucudaki **new role** `(903642199206535178)` rolü silindi!",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 16711680,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": {
+                                            "text": "Furky 💜 Menemen"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "✩ Furky Guard l",
+                                "avatar": "https://cdn.discordapp.com/avatars/883043407478530088/d4fe022342983d57e489056e02e665d6.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "Rol silindi!",
+                                        "type": "rich",
+                                        "description": "Sunucudaki **new role** `(903642027781136395)` rolü silindi!",
+                                        "url": null,
+                                        "timestamp": null,
+                                        "color": 16711680,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": {
+                                            "text": "Furky 💜 Menemen"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "auth",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Log's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1049600
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "sync",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Log's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1049600
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "moderation",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Log's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1049600
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "quany",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Bot Log's",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1049600
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": 0,
+                                "deny": 1049600
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "name": "Realistic 31 Tayf",
+            "color": "#ffe500",
+            "hoist": true,
+            "permissions": 104320585,
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "</>",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "Quany",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 8,
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "Bot's",
+            "color": "#3be0fd",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "Quany",
+            "color": "#4472ff",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "Member",
+            "color": "#5aff9d",
+            "hoist": true,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 1,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 0,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1636639877192,
+    "guildID": "877503484918923264",
+    "id": "908358224464445440"
+}

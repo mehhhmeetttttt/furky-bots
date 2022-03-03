@@ -1,0 +1,22 @@
+{
+  "sahip": "877466907673002025",
+  "prefix": "k!",
+  "token": "",
+  
+  "Settings": {
+    
+    "botActivitys": [
+      "Furky 💜 Menemen",
+      "Menemen 💜 Furky",
+      "Furky Synchronizer"
+    ],
+    
+    "botVoiceChannel": "900406475925639198",
+    "botFooter": "Furky 💜 Menemen",
+    "logChannel": "901483412433555456",
+    
+    "guildID": "877503484918923264",
+    "okeyEmoji": "✅",
+    "crossEmoji": "❌"
+  }
+}

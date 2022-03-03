@@ -1,0 +1,58 @@
+{
+  "BotSettings": {
+    "botFooter": "Furky 💜 Chill",
+      
+    "botActivitys": [
+      "Furky 💜 Chill",
+      "Chill 💜 Furky",
+      "Furky 💜 Menemen"
+    ],
+      
+    "botVoiceChannel": "934122827802632233",
+    "botName": "Chill Supervizor",
+    "botID": "934097378976342068"
+  },
+  
+  "GuildSettings": {
+    "Emojis": {
+      "okeyEmoji": "<a:furky_Tik:934125712267419689>",
+      "crossEmoji": "<a:furky_Carpi:934125685780389939>",
+      "vipEmoji": "<a:furky_Star:934126366369136720>",
+      "tagEmoji": "<a:furky_Star:934126366369136720>"
+    },
+      
+    "guildID": "921494655768592484"
+  },
+
+  "Tag": {
+    
+    "tag1": "Hard Chill",
+    "tag2": "Chill",
+    "tag3": "chill",
+    "tag4": "CHİLL",
+    "tag5": "hard chill",
+    "tag6": "Hard chill",
+    "tag7": "HARD CHİLL",
+    "tag8": "CHILL",
+    "tag9": "1071",
+    "discrim": "1071",
+    
+    "untag": "•",
+    "tagLog": "934124108789219338",
+    "tagRol": "934122764506398750",
+    "guildID": "921494655768592484"
+  },
+  
+  "SayıEmojileri": {
+    "sıfır": "<a:furky_0:934125624619061298>",
+    "bir": "<a:furky_1:934125629232791612>",
+    "iki": "<a:furky_2:934125631552229426>",
+    "üç": "<a:furky_3:934125650984452186>",
+    "dört": "<a:furky_4:934125652632825946>",
+    "beş": "<a:furky_5:934125654746742834>",
+    "altı": "<a:furky_6:934125656248311879>",
+    "yedi": "<a:furky_7:934125658609692732>",
+    "sekiz": "<a:furky_8:934125681913258066>",
+    "dokuz": "<a:furky_9:934125683716800532>"
+  }
+}

@@ -1,0 +1,181 @@
+{
+    "name": "Furky Bot Test",
+    "region": "russia",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ALL",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Sync Test",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "log",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Sync Test",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "Quany",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "istek-kod",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Quany",
+                        "topic": null,
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            }
+        ],
+        "others": [
+            {
+                "type": "voice",
+                "name": "Samedo Yarako Taşako",
+                "bitrate": 64000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": []
+            },
+            {
+                "type": "text",
+                "name": "general",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2048,
+                        "deny": 0
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            },
+            {
+                "type": "text",
+                "name": "notes",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2048,
+                        "deny": 0
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            },
+            {
+                "type": "voice",
+                "name": "Samedo Yarako Taşako 2",
+                "bitrate": 64000,
+                "userLimit": 0,
+                "parent": null,
+                "permissions": []
+            },
+            {
+                "type": "text",
+                "name": "kullanıcı-panel",
+                "nsfw": false,
+                "rateLimitPerUser": 0,
+                "parent": null,
+                "topic": null,
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 2048,
+                        "deny": 0
+                    }
+                ],
+                "messages": [],
+                "isNews": false
+            }
+        ]
+    },
+    "roles": [
+        {
+            "name": "Realistic 31 Tayf",
+            "color": "#ffe500",
+            "hoist": true,
+            "permissions": 104320585,
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "Realistic 31 Tayf",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": 104320577,
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "</>",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104320585,
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "Quany",
+            "color": "#00ffe9",
+            "hoist": true,
+            "permissions": 104320577,
+            "mentionable": false,
+            "position": 3,
+            "isEveryone": false
+        },
+        {
+            "name": "31",
+            "color": "#e74c3c",
+            "hoist": false,
+            "permissions": 104320577,
+            "mentionable": false,
+            "position": 2,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": 104320577,
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1635003406858,
+    "guildID": "877503484918923264",
+    "id": "901494370396667904",
+    "iconBase64": "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",
+    "iconURL": "https://cdn.discordapp.com/icons/877503484918923264/d736e0e0234044aa54ced93b0e0da320.webp"
+}
